@@ -35,22 +35,66 @@
             Development of chemistry acceleration techniques for reactive flow simulations,
             including TDAC optimization and stiff ODE integration.
         </p>
+
+        <a href="https://github.com/danhnam11/danhnam11.github.io/research/coCHEM/" class="more-details">
+            More details →
+        </a>
     </div>
 
     <div class="card">
-        <div class="tag">Combustion CFD</div>
-        <h3>Transcritical Reactive Flows</h3>
+        <div class="tag">OpenFOAM Development</div>
+        <h3>psiEff-Based Acceleration in Real-Fluid Transcritical Flow Simulations</h3>
         <p>
-            Numerical modelling of transcritical mixing and combustion under high-pressure conditions.
+            A psiEff-based formulation is introduced to reduce the computational cost of 
+            the pressure equation in real-fluid simulations under transcritical conditions.
+            The method improves convergence efficiency by modifying the effective 
+            compressibility treatment, reducing pressure iteration cost while maintaining 
+            robustness and accuracy in near-critical regimes.
         </p>
+        <a href="https://github.com/danhnam11/danhnam11.github.io/research/psiEffMethod/" class="more-details">
+            More details →
+        </a>        
     </div>
 
     <div class="card">
-        <div class="tag">High Performance Computing</div>
-        <h3>Large-scale Parallel Simulations</h3>
+        <div class="tag">OpenFOAM Development</div>
+        <h3>Gas–Surface Chemistry Coupling Strategy in Catalytic Flows</h3>
         <p>
-            Investigation of parallel performance and scalable algorithms for CFD simulations.
+            A segregated coupling strategy is used to handle gas-phase and surface chemistry 
+            in catalytic simulations. Surface reactions are treated as a boundary-localized 
+            stiff system and integrated independently from the bulk flow.
+            Gas-phase chemistry is then solved within computational cells, followed by solution of 
+            the finite-volume transport equations for species evolution.
         </p>
+        <a href="https://github.com/danhnam11/danhnam11.github.io/research/surfaceChemistry/" class="more-details">
+            More details →
+        </a> 
+    </div>
+
+    <div class="card">
+        <div class="tag">OpenFOAM Development</div>
+        <h3>Numerical Approach for Transcritical/Supercritical Flows</h3>
+        <p>
+            Numerical instabilities in high-pressure subsonic flows near critical conditions
+            arise from pseudo-boiling effects and strong density stratification in real-fluid models.
+            A pressure-based formulation with a modified PIMPLE algorithm is used to improve stability,
+            together with a Newton–Bisection coupling scheme to ensure robust convergence in OpenFOAM.
+        </p>
+        <a href="https://github.com/danhnam11/danhnam11.github.io/research/modifiedPIMPE/" class="more-details">
+            More details →
+        </a> 
+    </div>
+
+    <div class="card">
+        <div class="tag">GPU Computing</div>
+        <h3>GPU-Accelerated Reactive-Flow Simulations</h3>
+        <p>
+            Development of GPU-accelerated algorithms for reactive-flow simulations, focusing on 
+            improving computational efficiency for stiff chemistry in combustion simulations.
+        </p>
+        <a href="https://github.com/danhnam11/danhnam11.github.io/research/gpuReactingFoam/" class="more-details">
+            More details →
+        </a> 
     </div>
 </section>
 
