@@ -27,6 +27,17 @@
 
 <section>
     <h2>Research</h2>
+    <div class="card">
+        <div class="tag">GPU Computing</div>
+        <h3>GPU-Accelerated Reactive-Flow Simulations</h3>
+        <p>
+            Development of GPU-accelerated algorithms for reactive-flow simulations, focusing on 
+            improving computational efficiency for stiff chemistry in combustion simulations.
+        </p>
+        <a href="research/gpuReactingFoam/" class="more-details">
+            More details →
+        </a> 
+    </div>
 
     <div class="card">
         <div class="tag">OpenFOAM Development</div>
@@ -36,7 +47,7 @@
             including TDAC optimization and stiff ODE integration.
         </p>
 
-        <a href="https://github.com/danhnam11/danhnam11.github.io/research/coCHEM/" class="more-details">
+        <a href="research/coCHEM/" class="more-details">
             More details →
         </a>
     </div>
@@ -51,7 +62,7 @@
             compressibility treatment, reducing pressure iteration cost while maintaining 
             robustness and accuracy in near-critical regimes.
         </p>
-        <a href="https://github.com/danhnam11/danhnam11.github.io/research/psiEffMethod/" class="more-details">
+        <a href="research/psiEffMethod/" class="more-details">
             More details →
         </a>        
     </div>
@@ -66,7 +77,21 @@
             Gas-phase chemistry is then solved within computational cells, followed by solution of 
             the finite-volume transport equations for species evolution.
         </p>
-        <a href="https://github.com/danhnam11/danhnam11.github.io/research/surfaceChemistry/" class="more-details">
+        <a href="research/surfaceChemistry/" class="more-details">
+            More details →
+        </a> 
+    </div>
+
+    <div class="card">
+        <div class="tag">OpenFOAM Development</div>
+        <h3>coTHERM: Time-Correlated Thermophysical Property Evaluation</h3>
+        <p>
+            The detailed transport model (DTM) in OpenFOAM requires recomputation of thermophysical properties
+            in every cell at each time step, leading to high computational cost. The coTHERM method reduces 
+			this cost by exploiting the temporal correlation of thermodynamic states, treating thermophysical 
+			properties as locally time-invariant over short intervals while preserving accuracy.
+        </p>
+        <a href="research/coTHERM/" class="more-details">
             More details →
         </a> 
     </div>
@@ -80,22 +105,11 @@
             A pressure-based formulation with a modified PIMPLE algorithm is used to improve stability,
             together with a Newton–Bisection coupling scheme to ensure robust convergence in OpenFOAM.
         </p>
-        <a href="https://github.com/danhnam11/danhnam11.github.io/research/modifiedPIMPE/" class="more-details">
+        <a href="research/modifiedPIMPE/" class="more-details">
             More details →
         </a> 
     </div>
-
-    <div class="card">
-        <div class="tag">GPU Computing</div>
-        <h3>GPU-Accelerated Reactive-Flow Simulations</h3>
-        <p>
-            Development of GPU-accelerated algorithms for reactive-flow simulations, focusing on 
-            improving computational efficiency for stiff chemistry in combustion simulations.
-        </p>
-        <a href="https://github.com/danhnam11/danhnam11.github.io/research/gpuReactingFoam/" class="more-details">
-            More details →
-        </a> 
-    </div>
+	
 </section>
 
 </div>
